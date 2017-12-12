@@ -35,7 +35,7 @@ void algorithm2()
     bi += sensors[i];
   }
   float e;
-  if(bi == 0) e = 0;
+  if(bi == 0) e = e_last;
   else e = wi / (4 * bi);
   
   /*Serial.print(e);
